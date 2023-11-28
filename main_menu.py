@@ -1,11 +1,3 @@
-import re
-
-def welcome_message():
-    """
-    This will be the message the user will see when logged in.
-    """
-    return "Welcome to the Entrepreneurship Incubator! Choose an option below to get started:"
-
 def main_menu():
     print("1. Register")
     print("2. Share Email")
