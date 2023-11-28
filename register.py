@@ -25,4 +25,4 @@ def register():
         print("\nPermission denied. Your information has not been shared.")
 
  global shared_emails
-    shared_emails[name] = email
+ shared_emails[name] = email
