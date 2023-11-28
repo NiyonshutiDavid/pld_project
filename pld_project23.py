@@ -30,7 +30,14 @@ def register():
         print("\nInvalid email. Please register again.")
         return
 
-    print("\nThank you for registering, {}. Your information has been stored.".format(name))
+      permission = input("Do you give permission to share your email? (yes/no): ").lower()
+    if permission == 'yes':
+        print("\nThank you for registering, {}. Your information has been stored.".format(name))
+        global shared_emails
+        shared_emails[name] = email
+    else:
+        print("\nPermission denied. Your information has not been shared.")
+
 
     global shared_emails
     shared_emails[name] = email
