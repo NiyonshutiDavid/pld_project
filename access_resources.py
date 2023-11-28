@@ -16,4 +16,6 @@ def access_resources():
             print("[Content of the article]")
 
     elif choice == '2':
+        print("[Content of the article]")
+
         
